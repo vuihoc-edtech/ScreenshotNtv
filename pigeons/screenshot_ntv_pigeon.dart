@@ -3,11 +3,11 @@ import 'package:pigeon/pigeon.dart';
 @ConfigurePigeon(
   PigeonOptions(
     dartOut: 'lib/src/screenshot_ntv_api.dart',
-    kotlinOut:
-        'android/src/main/kotlin/com/n1k5tas/screenshot_ntv/pigeon/Pigeon.kt',
+    javaOut:
+        'android/src/main/kotlin/com/n1k5tas/screenshot_ntv/pigeon/Pigeon.java',
     objcHeaderOut: 'ios/Classes/Pigeon.h',
     objcSourceOut: 'ios/Classes/Pigeon.m',
-    dartPackageName: 'com.n1k5tas.screenshot_ntv',
+    // dartPackageName: 'com.n1k5tas.screenshot_ntv',
   ),
 )
 @HostApi()
